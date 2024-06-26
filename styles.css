@@ -1,0 +1,43 @@
+/* styles.css */
+
+/* Colored headers */
+.admin-section .stBlock {
+    background-color: #3498db; /* Blue */
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.student-section .stBlock {
+    background-color: #2ecc71; /* Green */
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Colored buttons */
+.stButton {
+    background-color: #c0392b; /* Darker Red */
+    color: #c0392b; /* White text */
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.stButton:hover {
+    opacity: 0.8;
+    color: #c0392b; /* Maintain white text on hover */
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    color: #c0392b; /* Darker Red */
+}
